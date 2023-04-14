@@ -1,4 +1,5 @@
 import React from "react";
+import svgLogo from '../static/assets/logo.svg';
 import { NavLink } from 'react-router-dom';
 
 
@@ -24,6 +25,8 @@ function Button({text, bg, padding}) {
 const Navbar = () => {
   return (
     <>
+
+    
     
     </>
   );
