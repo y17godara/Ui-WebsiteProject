@@ -1,33 +1,51 @@
 import React from "react";
-import svgLogo from '../static/assets/logo.svg';
 import { NavLink } from 'react-router-dom';
-
-
-{/* <div>
-<Button text="Login" bg="bg-gradient-to-r from-purple-500 to-blue-500"/>
-</div> */}
-
-function Button({text, bg, padding}) {
-  return (
-    <div>
-      <button
-        className={`
-          ${padding || 'px-6 py-2'} text-sm font-semibold uppercase 
-          rounded-sm text-white transition ${bg}`}
-      >
-        <span>{text}</span>
-      </button>
-    </div>
-  );
-}
-
+// Additional
+import { useState, useEffect } from 'react';
+import svgLogo from '../static/assets/logo.svg';
+import '../static/css/index.css'
+import '../static/css/Components.css'
 
 const Navbar = () => {
-  return (
-    <>
 
-    
-    
+  const [theme, setTheme] = useState(
+    localStorage.getItem('theme') || 'light'
+  );
+
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  };
+
+  useEffect(() => {
+    localStorage.setItem('theme', theme);
+    document.body.className = theme;
+  }, [theme]);
+
+  return (
+    < >
+        <header className=" w-full">
+
+          <nav className="max-w-[1280px] m-auto flex items-center justify-between">
+
+            <div>
+              <img src={svgLogo} alt="Logo" />
+            </div>
+
+            <div className="flex gap-4">
+              <NavLink to={'/'}>Blog</NavLink>
+              <button>Get a Demo</button>
+              <div className="">
+                <button className="btn" onClick={toggleTheme}></button>
+              </div>
+            </div>
+
+          </nav>
+
+        </header>
     </>
   );
 }
