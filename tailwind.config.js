@@ -9,10 +9,6 @@ module.exports = {
   },
   variants: {
     extend: {
-      backgroundImage:
-      {
-        'hero_pattern': "url('/public/background.svg)"
-      }
     },
   },
   plugins: [],

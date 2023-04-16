@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from 'react-router-dom';
 // Additional
 import { useState, useEffect } from 'react';
-import svgLogo from '../static/assets/logo.svg';
 import '../static/css/index.css'
 import '../static/css/Components.css'
 
@@ -38,7 +37,7 @@ const Navbar = () => {
     < >
       <header className=" w-full shadow-css 1.95px 1.95px 2.6px;]">
 
-        <nav className="max-w-[1280px] m-auto flex items-center justify-between h-[94px] p-4">
+        <nav className="max-w-[1440px] m-auto flex items-center justify-between h-[94px] p-4">
 
           <NavLink to={'/'} >
             {/* <img src={svgLogo} alt="Logo" className="w-[100%]" /> */}

@@ -8,8 +8,15 @@ const Home = () => {
   return (
     <>
       <section>
-        <div class="bg-hero_pattern bgimagecss">
-          <h1>Image</h1>
+
+        <div >
+          <div class="h-full bg-hero_pattern bg_image_css">
+
+            <div className="text">
+
+            </div>
+
+          </div>
         </div>
 
       </section>
