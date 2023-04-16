@@ -9,14 +9,16 @@ const Home = () => {
     <>
       <section>
 
-        <div >
+        <div className='bg-[#F5F5F5]' >
+
           <div class="h-full bg-hero_pattern bg_image_css">
 
             <div className="text">
-
+              Hello
             </div>
 
           </div>
+
         </div>
 
       </section>
