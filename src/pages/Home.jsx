@@ -1,10 +1,19 @@
 import React from 'react'
+import svgBackground from '../static/assets/background.svg';
+import '../static/css/Home.css';
 
 const Home = () => {
+
+
   return (
-    <div>
-      <h1>This is home page.</h1>
-    </div>
+    <>
+      <section>
+        <div class="bg-hero_pattern bgimagecss">
+          <h1>Image</h1>
+        </div>
+
+      </section>
+    </>
   )
 }
 

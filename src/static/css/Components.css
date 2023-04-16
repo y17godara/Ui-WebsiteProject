@@ -1,3 +1,4 @@
+/* Navbar.jsx */
 .light .btn {
     color: #fff;
     background-color: #000;
@@ -15,7 +16,6 @@
     justify-content: center;
     display: flex;
 }
-
 
 .button-demo {
     display: flex;
@@ -38,10 +38,13 @@
 }
 
 @media screen and (max-width: 360px) {
-    .reset-font-mobile  {
-      font-size: 1.2rem;
+    .reset-font-mobile {
+        font-size: 1.2rem;
     }
-    svg.svgDarkMode{
+
+    svg.svgDarkMode {
         width: 100px;
     }
-  }
+}
+
+/* Footer.jsx */
