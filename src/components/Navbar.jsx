@@ -52,10 +52,10 @@ const Navbar = () => {
 
           <div className="ml-4 flex gap-4 justify-center items-center text-[1.5rem] font-semibold">
 
-            <NavLink to={'/blogs'} className={'text-[--Color-Orange] text-[1.8rem]'} >Blog</NavLink>
+            <NavLink to={'/blogs'} className={'reset-font-mobile text-[--Color-Orange] text-[1.8rem]'} >Blog</NavLink>
 
-            <button className="button-demo">Demo</button>
-            <button className="btn" onClick={toggleTheme}>(.)</button>
+            <button className="button-demo reset-font-mobile ">Demo</button>
+            {/* <button className="btn" onClick={toggleTheme}>(.)</button>  Test */}
 
           </div>
 

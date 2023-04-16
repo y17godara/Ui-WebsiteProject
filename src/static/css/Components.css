@@ -37,8 +37,11 @@
     box-shadow: 0 0.3em 1em -0.5em #FFAA47;
 }
 
-/* @media only screen and (max-width: 425px) {
-    body {
-      background-color: lightblue;
+@media screen and (max-width: 360px) {
+    .reset-font-mobile  {
+      font-size: 1.2rem;
     }
-  } */
+    svg.svgDarkMode{
+        width: 100px;
+    }
+  }
