@@ -49,15 +49,16 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    border: 2px solid #ffffff;
 }
 
 .button:hover {
     box-shadow: 0 0.5em 1.5em -0.5em #FFAA47;
+    border: 2px solid #ffffff;
 }
 
 .button:active {
     box-shadow: 0 0.3em 1em -0.5em #FFAA47;
+    border: 2px solid #ffffff;
 }
 
 
@@ -73,17 +74,24 @@
     gap: 10px;
     width: 144px;
     height: 41px;
-    background: #fff;
+    background: transparent;
+    /* background: #fff; */
     border: 2px solid #FFAA47;
     border-radius: 22px;
 }
 
 .button-2:hover {
     box-shadow: 0 0.5em 1.5em -0.5em #ffffff;
+    border: 2px solid #ffffff;
+    background: #FFAA47;
+    color: #fff;
 }
 
 .button-2:active {
     box-shadow: 0 0.3em 1em -0.5em #ffffff;
+    border: 2px solid #ffffff;
+    background: #FFAA47;
+    color: #fff;
 }
 
 
