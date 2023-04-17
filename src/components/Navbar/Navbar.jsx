@@ -2,8 +2,8 @@ import React from "react";
 import { NavLink } from 'react-router-dom';
 // Additional
 import { useState, useEffect } from 'react';
-import '../static/css/index.css'
-import '../static/css/Components.css'
+import '../../style/index.css'
+import '../../style/Components.css'
 
 const Navbar = () => {
 

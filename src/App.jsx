@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Components
-import Navbar from './components/Navbar';
-import Footer from './components/Footer.jsx';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 // Pages
 import Home from './pages/Home';
 import Blogs from './pages/Blogs';

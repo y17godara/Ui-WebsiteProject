@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Button.css";
 
 export const Button_sec = ({ text, padding }) => {
     return (
@@ -6,8 +7,9 @@ export const Button_sec = ({ text, padding }) => {
             <div>
                 <button
                     className={`
-               ${padding || 'px-4 py-6'} button-2`}>
-                    <span>{text}</span>
+               ${padding || 'px-4 py-6'} button-2`
+               }>
+                {text}
                 </button>
             </div>
 

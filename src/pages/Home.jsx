@@ -1,11 +1,11 @@
 import React from 'react'
-import '../static/css/Home.css';
-import '../static/css/index.css';
-import storeLogo from '../static/assets/logoStore1.svg';
-import storeLogoo from '../static/assets/logoStore2.svg';
-import storeLogooo from '../static/assets/logoStore3.svg';
-import storeLogoooo from '../static/assets/logoStore4.svg';
-import storeLogooooo from '../static/assets/logoStore5.svg';
+import '../style/Home.css';
+import '../style/index.css';
+import storeLogo from '../../public/img/logoStore1.svg';
+import storeLogoo from '../../public/img/logoStore2.svg';
+import storeLogooo from '../../public/img/logoStore3.svg';
+import storeLogoooo from '../../public/img/logoStore4.svg';
+import storeLogooooo from '../../public/img/logoStore5.svg';
 
 // Test
 import {
