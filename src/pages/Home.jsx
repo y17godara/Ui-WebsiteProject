@@ -28,12 +28,11 @@ const Home = () => {
 
             <div class="flex align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2">
               <h1 className='flex text-[4rem] text-[#1A1A1A] font-black align-center justify-center text-center items-center sm:text-[8rem]'>Modern furniture with a Twist</h1>
-
               <p className='flex text-[2rem] my-8 text-[#1A1A1A] font-semibold align-center justify-center text-center items-center sm:text-[3rem]'>Ready-made furniture build for your home</p>
 
               <div className='flex my-8 flex-col gap-4 justify-center items-center text-center align-center sm:flex-row '>
-                <button className="button px-4 py-6">Shop</button>
-                <button className="button-2 px-4 py-6">Discover</button>
+                <Button_pri text="Get a Demo" />
+                <Button_sec text="Discover More" />
               </div>
 
             </div>
@@ -44,21 +43,17 @@ const Home = () => {
           {/* stores section */}
           <div className='h-full'>
 
-            <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2'>
+            <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2'> 
 
-              <h1 className='flex text-[4rem] text-[#1A1A1A] font-black align-center justify-center text-center items-center sm:text-[5rem]'>Find us in your favorite stores</h1>
-
-              <p className='flex text-[1.5rem] my-8 text-[#1A1A1A] align-center justify-center text-center items-center sm:text-[2rem]'>And many other top retailers</p>
+            <Heading heading="Find us in your favorite stores" paragraph="And many other top retailers" />
 
               {/* imgs */}
               <div className="flex my-20 flex-col justify-between items-center p-4 gap-[8rem] w-full xl:flex-row px-[5%] gap-[10rem]">
-
-                <img src={storeLogo} alt="Logo" className="" />
-                <img src={storeLogoo} alt="Logo" className="" />
-                <img src={storeLogooo} alt="Logo" className="" />
-                <img src={storeLogoooo} alt="Logo" className="" />
-                <img src={storeLogooooo} alt="Logo" className="" />
-
+                <img src={storeLogo} alt="Logo"/>
+                <img src={storeLogoo} alt="Logo"/>
+                <img src={storeLogooo} alt="Logo"/>
+                <img src={storeLogoooo} alt="Logo"/>
+                <img src={storeLogooooo} alt="Logo"/>
               </div>
 
             </div>
@@ -68,15 +63,11 @@ const Home = () => {
 
           {/* Best in Class Section */}
           <div className='h-full'>
-
+               
             <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2'>
-
-              <h1 className='flex text-[4rem] text-[#1A1A1A] font-black align-center justify-center text-center items-center sm:text-[5rem]'>Best in Class</h1>
-
-              <p className='flex text-[1.5rem] my-8 text-[#1A1A1A] align-center justify-center text-center items-center sm:text-[2rem]'>Here's why we're the best furniture company five years in a row</p>
+            <Heading heading="Best in Class" paragraph="Here's why we're the best furniture company five years in a row" />
 
               <div className="grid my-20 justify-between items-center p-4 w-full xl:">
-                
               </div>
 
             </div>
@@ -84,9 +75,9 @@ const Home = () => {
           </div>
           {/* Best in Class Section */}
 
+
           <Heading heading="Find us in your favorite stores" paragraph="is it working or not" />
-          <Button_pri text="Login"/>
-          <Button_sec text="Signup" />
+
 
 
         </div>
