@@ -38,14 +38,14 @@ const Home = () => {
           {/* stores section */}
           <div className='h-full'>
 
-            <div className='flex my-[160px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2'>
+            <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2'>
 
-              <h1 className='flex text-[4rem] text-[#1A1A1A] font-bold align-center justify-center text-center items-center sm:text-[5rem]'>Find us in your favorite stores</h1>
+              <h1 className='flex text-[4rem] text-[#1A1A1A] font-black align-center justify-center text-center items-center sm:text-[5rem]'>Find us in your favorite stores</h1>
 
               <p className='flex text-[1.5rem] my-8 text-[#1A1A1A] align-center justify-center text-center items-center sm:text-[2rem]'>And many other top retailers</p>
 
               {/* imgs */}
-              <div className="flex my-20 flex-col justify-between items-center p-4 gap-[8rem] w-full xl:flex-row gap-[1rem]">
+              <div className="flex my-20 flex-col justify-between items-center p-4 gap-[8rem] w-full xl:flex-row px-[5%] gap-[1rem]">
 
                 <img src={storeLogo} alt="Logo" className="" />
                 <img src={storeLogoo} alt="Logo" className="" />
@@ -59,6 +59,24 @@ const Home = () => {
 
           </div>
           {/* stores section */}
+
+          {/* Best in Class Section */}
+          <div className='h-full'>
+
+            <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2'>
+
+              <h1 className='flex text-[4rem] text-[#1A1A1A] font-black align-center justify-center text-center items-center sm:text-[5rem]'>Best in Class</h1>
+
+              <p className='flex text-[1.5rem] my-8 text-[#1A1A1A] align-center justify-center text-center items-center sm:text-[2rem]'>Here's why we're the best furniture company five years in a row</p>
+
+              <div className="grid my-20 justify-between items-center p-4 w-full xl:">
+                
+              </div>
+
+            </div>
+
+          </div>
+          {/* Best in Class Section */}
 
         </div>
 
