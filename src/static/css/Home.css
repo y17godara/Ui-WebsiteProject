@@ -7,6 +7,13 @@
     background-size: cover;
     position: relative;
     height: 80vh;
+    z-index: 1;
+}
+.marker_image_css{
+    background: url(underline.svg);
+    position: relative;
+    height: 5px;
+    z-index: 2;
 }
 
 .button{
