@@ -7,6 +7,10 @@ import storeLogooo from '../static/assets/logoStore3.svg';
 import storeLogoooo from '../static/assets/logoStore4.svg';
 import storeLogooooo from '../static/assets/logoStore5.svg';
 
+// Test
+import {
+  Title,
+} from "../components/IndexComponents";
 
 const Home = () => {
 
@@ -45,7 +49,7 @@ const Home = () => {
               <p className='flex text-[1.5rem] my-8 text-[#1A1A1A] align-center justify-center text-center items-center sm:text-[2rem]'>And many other top retailers</p>
 
               {/* imgs */}
-              <div className="flex my-20 flex-col justify-between items-center p-4 gap-[8rem] w-full xl:flex-row px-[5%] gap-[1rem]">
+              <div className="flex my-20 flex-col justify-between items-center p-4 gap-[8rem] w-full xl:flex-row px-[5%] gap-[10rem]">
 
                 <img src={storeLogo} alt="Logo" className="" />
                 <img src={storeLogoo} alt="Logo" className="" />
@@ -77,6 +81,8 @@ const Home = () => {
 
           </div>
           {/* Best in Class Section */}
+
+          <Title heading="Find us in your favorite stores" paragraph="is it working or not" />
 
         </div>
 
