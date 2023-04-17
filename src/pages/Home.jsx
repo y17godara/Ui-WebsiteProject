@@ -9,9 +9,10 @@ const Home = () => {
     <>
       <section>
 
-        <div className='bg-[#F5F5F5]' >
+        <div className='' >
 
-          <div class="h-full bg_image_css">
+          {/* hero section */}
+          <div class="h-full bg_image_css bg-[#F5F5F5]">
 
             <div class="flex align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2">
               <h1 className='flex text-[4rem] text-[#1A1A1A] font-black align-center justify-center text-center items-center sm:text-[8rem]'>Modern furniture with a Twist</h1>
@@ -26,6 +27,17 @@ const Home = () => {
             </div>
 
           </div>
+          {/* hero section */}
+
+          {/* stores section */}
+          <div className='h-full'>
+
+            <div className='flex my-[60px] bg-[#1A1A1A] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2'>
+
+            </div>
+
+          </div>
+          {/* stores section */}
 
         </div>
 
