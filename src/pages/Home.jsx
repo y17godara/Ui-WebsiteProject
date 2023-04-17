@@ -9,7 +9,9 @@ import storeLogooooo from '../static/assets/logoStore5.svg';
 
 // Test
 import {
-  Title,
+  Heading,
+  Button_pri,
+  Button_sec,
 } from "../components/IndexComponents";
 
 const Home = () => {
@@ -82,7 +84,10 @@ const Home = () => {
           </div>
           {/* Best in Class Section */}
 
-          <Title heading="Find us in your favorite stores" paragraph="is it working or not" />
+          <Heading heading="Find us in your favorite stores" paragraph="is it working or not" />
+          <Button_pri text="Login"/>
+          <Button_sec text="Signup" />
+
 
         </div>
 
