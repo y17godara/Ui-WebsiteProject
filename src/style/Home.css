@@ -1,5 +1,5 @@
 .bg_image_css {
-    background: url(background.svg);
+    background: url(../../public/img/background.svg);
     background-color: #ececec;
     height: 82vh;
     background-position: center;
