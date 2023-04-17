@@ -76,7 +76,7 @@ const Home = () => {
           {/* Best in Class Section */}
 
 
-          <Heading heading="Find us in your favorite stores" paragraph="is it working or not" />
+          <Heading heading="Test" paragraph="Test" />
 
 
 
