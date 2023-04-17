@@ -18,15 +18,22 @@
 }
 
 .button-demo {
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.5rem;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding: 10px 20px;
-    height: 40px;
+    align-items: center;
+    padding: 11px 15px;
+    /* width: 100px; */
+    /* height: 40px;   */
     background: #FFAA47;
     border-radius: 22px;
-    font-weight: 700;
-    align-items: center;
-    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 2px solid #ffffff;
 }
 
 .button-demo:hover {
