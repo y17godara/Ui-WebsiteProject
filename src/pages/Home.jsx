@@ -1,7 +1,12 @@
 import React from 'react'
 import '../static/css/Home.css';
 import '../static/css/index.css';
-import storeLogo from '../static/assets/logoStore.svg';
+import storeLogo from '../static/assets/logoStore1.svg';
+import storeLogoo from '../static/assets/logoStore2.svg';
+import storeLogooo from '../static/assets/logoStore3.svg';
+import storeLogoooo from '../static/assets/logoStore4.svg';
+import storeLogooooo from '../static/assets/logoStore5.svg';
+
 
 const Home = () => {
 
@@ -20,7 +25,7 @@ const Home = () => {
 
               <p className='flex text-[2rem] my-8 text-[#1A1A1A] font-semibold align-center justify-center text-center items-center sm:text-[3rem]'>Ready-made furniture build for your home</p>
 
-              <div className='flex mt-8 flex-col gap-4 justify-center items-center text-center align-center sm:flex-row '>
+              <div className='flex my-8 flex-col gap-4 justify-center items-center text-center align-center sm:flex-row '>
                 <button className="button px-4 py-6">Shop</button>
                 <button className="button-2 px-4 py-6">Discover</button>
               </div>
@@ -40,13 +45,13 @@ const Home = () => {
               <p className='flex text-[1.5rem] my-8 text-[#1A1A1A] align-center justify-center text-center items-center sm:text-[2rem]'>And many other top retailers</p>
 
               {/* imgs */}
-              <div className="flex flex-col justify-between items-center p-4 gap-4 w-full xl:flex-row">
+              <div className="flex my-20 flex-col justify-between items-center p-4 gap-[8rem] w-full xl:flex-row gap-[1rem]">
 
                 <img src={storeLogo} alt="Logo" className="" />
-                <img src={storeLogo} alt="Logo" className="" />
-                <img src={storeLogo} alt="Logo" className="" />
-                <img src={storeLogo} alt="Logo" className="" />
-                <img src={storeLogo} alt="Logo" className="" />
+                <img src={storeLogoo} alt="Logo" className="" />
+                <img src={storeLogooo} alt="Logo" className="" />
+                <img src={storeLogoooo} alt="Logo" className="" />
+                <img src={storeLogooooo} alt="Logo" className="" />
 
               </div>
 
