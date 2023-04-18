@@ -26,9 +26,9 @@ const Home = () => {
         <div>
 
           {/* hero section */}
-          <div class="h-full bg_image_css bg-[#F5F5F5]">
+          <div class="h-full bg_image_css  bg-[#F5F5F5]">
 
-            <div class="flex align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2">
+            <div class=" flex align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2">
               <h1 className='flex text-[4rem] text-[#1A1A1A] font-black align-center justify-center text-center items-center sm:text-[8rem]'>Modern furniture with a Twist</h1>
               <p className='flex text-[2rem] my-8 text-[#1A1A1A] font-semibold align-center justify-center text-center items-center sm:text-[3rem]'>Ready-made furniture build for your home</p>
 
@@ -104,7 +104,26 @@ const Home = () => {
 
             <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] p-[8vh] px-2 bg-gray-300'>
 
-            <Heading heading={"Test"} paragraph={"Test"} />
+   
+                <Heading heading={"It’s Too Easy"} paragraph={"We make it simple to discover the perfect furniture for your home"} />
+
+                {/* Image /Menu Flex */}
+                <div className='flex flex-row absolute items-start '>
+
+                  {/* Image */}
+                  <img className='max-w-[720px] hover:border-l-4 border-solid border-[#FFAA47]' style={{ width: "100%", height: "100%" }} src="../../public/img/sectClass/image_1.svg" alt="img" />
+                  {/* Image */}
+
+                  {/* Text Para */}
+                  <div className='flex flex-col gap-8 justify-center items-start w-full h-full max-w-[720px] text-justify '>
+                    <img src="../../public/img/sectClass/Check.svg" style={{ width: "40px", height: "40px" }} alt="check" />
+                    <h2 className='text-[3.3rem] text-[#FFAA47]'>wdwdw</h2>
+                    <p className='text-[1.8rem]'>ddwdw</p>
+                  </div>
+                  {/* Text Para */}
+
+                </div>
+                {/* Image /Menu Flex */}
 
             </div>
 
