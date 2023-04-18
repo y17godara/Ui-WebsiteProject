@@ -81,7 +81,7 @@ const Home = () => {
 
                 {/* container 2 */}
                 <div>
-                  <ImageParagraph_sec imgLink={"../../public/img/sectClass/image_2.svg"} heading={"Modern Design"} paragraph={"We, at Furnitime, are known for our sleek and innovative furniture designs that seamlessly blend form and function. We prioritize contemporary aesthetics and use cutting-edge design software to bring our ideas to life."} />
+                  <ImageParagraph_pri imgLink={"../../public/img/sectClass/image_2.svg"} heading={"Modern Design"} paragraph={"We, at Furnitime, are known for our sleek and innovative furniture designs that seamlessly blend form and function. We prioritize contemporary aesthetics and use cutting-edge design software to bring our ideas to life."} />
                 </div>
 
                 {/* container 3 */}

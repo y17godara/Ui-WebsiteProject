@@ -1,6 +1,8 @@
 import React from 'react'
 
+
 export const ImageParagraph_sec = ({ imgLink, heading, paragraph }) => {
+
     return (
         <>
             <div>
@@ -20,7 +22,7 @@ export const ImageParagraph_sec = ({ imgLink, heading, paragraph }) => {
                     {/* Image */}
 
                 </div>
-                
+
             </div>
         </>
     )
