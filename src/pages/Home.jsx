@@ -68,20 +68,20 @@ const Home = () => {
             <Heading heading="Best in Class" paragraph="Here's why we're the best furniture company five years in a row" />
 
               {/* wrap */}
-              <div className="flex my-20 flex-col justify-between items-center p-4 max-w-[1440px] xl:flex-row px-[5%]">
+              <div className="flex my-20 flex-col justify-between items-center p-4 max-w-[1440px] gap-[45px]">
                 {/* container 1 */}
-                <div className='flex flex-row justify-between max-w-[1440px] h-full gap-8'>
-                  <img className='h-full' src="../../public/img/sectClass/image_1.svg" alt="img" />
-                  <div className='flex flex-col'>
-                    <img src="../../public/img/sectClass/Check.svg" alt="check" />
-                    <h2>Sustainable Materials</h2>
-                    <p>We source our materials from suppliers who prioritize sustainable and ethical practices, such as using reclaimed wood and recycled materials. We also uses eco-friendly manufacturing processes that reduce our carbon footprint and waste.</p>
+                <div className='flex-col flex  justify-center items-center max-w-[1440px] gap-[5rem] xl:flex-row'>
+                  {/* Image */}
+                  <img className='max-w-[720px] hover:border-l-4 border-solid border-[#FFAA47]' style={{width: "100%", height: "100%"}}  src="../../public/img/sectClass/image_1.svg" alt="img" />
+                  {/* Text Para */}
+                  <div className='flex flex-col gap-8 justify-center items-start w-full h-full max-w-[720px] text-justify '>
+                    <img src="../../public/img/sectClass/Check.svg" style={{width: "40px", height: "40px"}} alt="check" />
+                    <h2 className='text-[3.3rem]'>Sustainable Materials</h2>
+                    <p className='text-[1.8rem]'>We source our materials from suppliers who prioritize sustainable and ethical practices, such as using reclaimed wood and recycled materials. We also uses eco-friendly manufacturing processes that reduce our carbon footprint and waste.</p>
                   </div>
                 </div>
                 {/* container 2 */}
-                <div>
-
-                </div>
+                
                 {/* container 3 */}
                 <div>
 

@@ -1,12 +1,12 @@
 .bg_image_css {
-    background: url(../../public/img/background.svg);
+    background: url(/img/background.svg); /*../../public/img/background.svg*/
     background-color: #ececec;
-    height: 82vh;
+    /* height: 82vh; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 80vh;
+    height: 100vh;
     z-index: 1;
 }
 .marker_image_css{
@@ -32,8 +32,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 
 
 @media screen and (max-width: 360px) {
