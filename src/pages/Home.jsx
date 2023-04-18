@@ -12,6 +12,7 @@ import {
   Heading,
   Button_pri,
   Button_sec,
+  ImageParagraph,
 } from "../components/IndexComponents";
 
 const Home = () => {
@@ -31,8 +32,8 @@ const Home = () => {
               <p className='flex text-[2rem] my-8 text-[#1A1A1A] font-semibold align-center justify-center text-center items-center sm:text-[3rem]'>Ready-made furniture build for your home</p>
 
               <div className='flex my-8 flex-col gap-4 justify-center items-center text-center align-center sm:flex-row '>
-                <Button_pri text="Get a Demo" />
-                <Button_sec text="Discover More" />
+                <Button_pri text={"Get a Demo"} />
+                <Button_sec text={"Discover More"} />
               </div>
 
             </div>
@@ -81,10 +82,10 @@ const Home = () => {
                   </div>
                 </div>
                 {/* container 2 */}
-                
+                <ImageParagraph imgLink={"../../public/img/sectClass/image_2.svg"} heading={"Modern Design"} paragraph={"We, at Furnitime, are known for our sleek and innovative furniture designs that seamlessly blend form and function. We prioritize contemporary aesthetics and use cutting-edge design software to bring our ideas to life."}/>
                 {/* container 3 */}
                 <div>
-
+                <ImageParagraph imgLink={"../../public/img/sectClass/image_2.svg"} heading={"Modern Design"} paragraph={"We, at Furnitime, are known for our sleek and innovative furniture designs that seamlessly blend form and function. We prioritize contemporary aesthetics and use cutting-edge design software to bring our ideas to life."}/>
                 </div>
 
               </div>
@@ -95,7 +96,7 @@ const Home = () => {
           {/* Best in Class Section */}
 
 
-          <Heading heading="Test" paragraph="Test" />
+          <Heading heading={"Test"} paragraph={"Test"} />
 
 
 
