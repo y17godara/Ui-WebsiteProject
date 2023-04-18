@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ImageParagraph = ({ imgLink, heading, paragraph }) => {
+export const ImageParagraph_pri = ({ imgLink, heading, paragraph }) => {
     return (
         <>
             <div>
@@ -19,4 +19,4 @@ export const ImageParagraph = ({ imgLink, heading, paragraph }) => {
     )
 }
 
-export default ImageParagraph;
+export default ImageParagraph_pri;
