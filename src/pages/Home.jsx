@@ -7,7 +7,7 @@ import storeLogooo from '../../public/img/logoStore3.svg';
 import storeLogoooo from '../../public/img/logoStore4.svg';
 import storeLogooooo from '../../public/img/logoStore5.svg';
 
-// Test
+// Components
 import {
   Heading,
   Button_pri,
@@ -67,7 +67,26 @@ const Home = () => {
             <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2'>
             <Heading heading="Best in Class" paragraph="Here's why we're the best furniture company five years in a row" />
 
-              <div className="grid my-20 justify-between items-center p-4 w-full xl:">
+              {/* wrap */}
+              <div className="flex my-20 flex-col justify-between items-center p-4 max-w-[1440px] xl:flex-row px-[5%]">
+                {/* container 1 */}
+                <div className='flex flex-row justify-between max-w-[1440px] h-full gap-8'>
+                  <img className='h-full' src="../../public/img/sectClass/image_1.svg" alt="img" />
+                  <div className='flex flex-col'>
+                    <img src="../../public/img/sectClass/Check.svg" alt="check" />
+                    <h2>Sustainable Materials</h2>
+                    <p>We source our materials from suppliers who prioritize sustainable and ethical practices, such as using reclaimed wood and recycled materials. We also uses eco-friendly manufacturing processes that reduce our carbon footprint and waste.</p>
+                  </div>
+                </div>
+                {/* container 2 */}
+                <div>
+
+                </div>
+                {/* container 3 */}
+                <div>
+
+                </div>
+
               </div>
 
             </div>
