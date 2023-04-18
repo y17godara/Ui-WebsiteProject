@@ -23,7 +23,7 @@ const Home = () => {
     <>
       <section className='mt-[1px]'>
 
-        <div className='' >
+        <div>
 
           {/* hero section */}
           <div class="h-full bg_image_css bg-[#F5F5F5]">
@@ -99,7 +99,17 @@ const Home = () => {
 
 
 
-          {/* Section */}
+          {/* Section Easy */}
+          <div className='h-full'>
+
+            <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] p-[8vh] px-2 bg-gray-300'>
+
+            <Heading heading={"Test"} paragraph={"Test"} />
+
+            </div>
+
+          </div>
+          {/* Section Easy */}
 
 
           <Heading heading={"Test"} paragraph={"Test"} />
