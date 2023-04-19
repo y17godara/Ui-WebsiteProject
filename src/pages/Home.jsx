@@ -120,7 +120,7 @@ const Home = () => {
 
                       <div className='flex flex-row justify-between w-full'>
                         <h2 className='text-[3.3rem] text-[#FFAA47]'>Browse</h2>
-                        <img src="../../public/img/sectEasy/More.svg" style={{ width: "40px", height: "40px" }} alt="check" />
+                        <img src="../../public/img/sectEasy/MoreHover.svg" style={{ width: "40px", height: "40px" }} alt="check" />
                       </div>
                       <p className='text-[1.8rem]'>Choose from over 500 products and 22 styles in one of the world’s largest online warehouses</p>
                       <div className='py-4'>
