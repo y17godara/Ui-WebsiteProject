@@ -50,7 +50,7 @@ const Home = () => {
               <Heading heading="Find us in your favorite stores" paragraph="And many other top retailers" />
 
               {/* imgs */}
-              <div className="flex my-20 flex-col justify-between items-center p-4 gap-[8rem] w-full xl:flex-row px-[5%] gap-[10rem]">
+              <div className="flex my-20 flex-col justify-between items-center p-4 gap-[5rem] w-full xl:flex-row px-[5%] ">
                 <img src={storeLogo} alt="Logo" />
                 <img src={storeLogoo} alt="Logo" />
                 <img src={storeLogooo} alt="Logo" />
@@ -68,7 +68,7 @@ const Home = () => {
           {/* Best in Class Section */}
           <div className='h-full'>
 
-            <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] pt-12 px-2'>
+            <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] px-2'>
               <Heading heading="Best in Class" paragraph="Here's why we're the best furniture company five years in a row" />
 
               {/* wrap */}
@@ -100,30 +100,30 @@ const Home = () => {
 
 
           {/* Section Easy */}
-          <div className='h-full'>
+          <div className='h-full  bg-gray-200'>
 
-            <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] p-[8vh] px-2 bg-gray-300'>
+            <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] p-[5vh] gap-4 px-2'>
 
-   
+              <div className='h-[800px]'>
+
                 <Heading heading={"It’s Too Easy"} paragraph={"We make it simple to discover the perfect furniture for your home"} />
 
-                {/* Image /Menu Flex */}
-                <div className='flex flex-row absolute items-start '>
+                {/* flex */}
+                <div className='flex flex-col gap-[5vh] justify-center items-center p-0  max-w-[1200px] m-auto h-500px xl:flex-row'>
 
-                  {/* Image */}
-                  <img className='max-w-[720px] hover:border-l-4 border-solid border-[#FFAA47]' style={{ width: "100%", height: "100%" }} src="../../public/img/sectClass/image_1.svg" alt="img" />
-                  {/* Image */}
+                  <img className='max-w-[600px]' style={{ width: "100%", height: "100%" }} src="../../public/img/sectEasy/image_1.svg" alt="img" />
 
                   {/* Text Para */}
-                  <div className='flex flex-col gap-8 justify-center items-start w-full h-full max-w-[720px] text-justify '>
+                  <div className='flex flex-col gap-8 justify-center items-start w-full h-full max-w-[600px] text-justify '>
                     <img src="../../public/img/sectClass/Check.svg" style={{ width: "40px", height: "40px" }} alt="check" />
-                    <h2 className='text-[3.3rem] text-[#FFAA47]'>wdwdw</h2>
-                    <p className='text-[1.8rem]'>ddwdw</p>
+                    <h2 className='text-[3.3rem] text-[#FFAA47]'>Browse</h2>
+                    <p className='text-[1.8rem]'>Choose from over 500 products and 22 styles in one of the world’s largest online warehouses</p>
                   </div>
                   {/* Text Para */}
 
                 </div>
-                {/* Image /Menu Flex */}
+
+              </div>
 
             </div>
 

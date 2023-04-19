@@ -5,7 +5,7 @@ export const ImageParagraph_pri = ({ imgLink, heading, paragraph }) => {
         <>
             <div>
 
-                <div className='flex-col flex  justify-center items-center max-w-[1440px] gap-[5rem] xl:flex-row'>
+                <div className='flex-col flex justify-center items-center max-w-[1440px] gap-[5rem] xl:flex-row'>
 
                     {/* Image */}
                     <img className='max-w-[720px] hover:border-l-4 border-solid border-[#FFAA47]' style={{ width: "100%", height: "100%" }} src={`${imgLink}`} alt="img" />
