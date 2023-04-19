@@ -100,27 +100,64 @@ const Home = () => {
 
 
           {/* Section Easy */}
-          <div className='h-full  bg-gray-200'>
+          <div className='h-full bg-gray-300'>
 
             <div className='flex my-[80px] align-center text-center flex-col justify-center items-center m-auto max-w-[1440px] p-[5vh] gap-4 px-2'>
 
-              <div className='h-[800px]'>
+              <div className=''>
 
                 <Heading heading={"It’s Too Easy"} paragraph={"We make it simple to discover the perfect furniture for your home"} />
 
                 {/* flex */}
                 <div className='flex flex-col gap-[5vh] justify-center items-center p-0  max-w-[1200px] m-auto h-500px xl:flex-row'>
 
-                  <img className='max-w-[600px]' style={{ width: "100%", height: "100%" }} src="../../public/img/sectEasy/image_1.svg" alt="img" />
-
                   {/* Text Para */}
                   <div className='flex flex-col gap-8 justify-center items-start w-full h-full max-w-[600px] text-justify '>
-                    <img src="../../public/img/sectClass/Check.svg" style={{ width: "40px", height: "40px" }} alt="check" />
-                    <h2 className='text-[3.3rem] text-[#FFAA47]'>Browse</h2>
-                    <p className='text-[1.8rem]'>Choose from over 500 products and 22 styles in one of the world’s largest online warehouses</p>
+
+
+                    {/* 1 */}
+                    <div>
+
+                      <div className='flex flex-row justify-between w-full'>
+                        <h2 className='text-[3.3rem] text-[#FFAA47]'>Browse</h2>
+                        <img src="../../public/img/sectEasy/More.svg" style={{ width: "40px", height: "40px" }} alt="check" />
+                      </div>
+                      <p className='text-[1.8rem]'>Choose from over 500 products and 22 styles in one of the world’s largest online warehouses</p>
+                      <div className='py-4'>
+                        <hr className='' />
+                      </div>
+                    </div>
+                    {/* 2 */}
+                    <div>
+
+                      <div className='flex flex-row justify-between w-full'>
+                        <h2 className='text-[3.3rem] text-[#FFAA47]'>Browse</h2>
+                        <img src="../../public/img/sectEasy/More.svg" style={{ width: "40px", height: "40px" }} alt="check" />
+                      </div>
+                      <p className='text-[1.8rem]'>Choose from over 500 products and 22 styles in one of the world’s largest online warehouses</p>
+                      <div className='py-4'>
+                        <hr className='' />
+                      </div>
+                    </div>
+                    {/* 3 */}
+                    <div>
+
+                      <div className='flex flex-row justify-between w-full'>
+                        <h2 className='text-[3.3rem] text-[#FFAA47]'>Browse</h2>
+                        <img src="../../public/img/sectEasy/More.svg" style={{ width: "40px", height: "40px" }} alt="check" />
+                      </div>
+                      <p className='text-[1.8rem]'>Choose from over 500 products and 22 styles in one of the world’s largest online warehouses</p>
+                      <div className='py-4'>
+                        <hr className='' />
+                      </div>
+                    </div>
+
                   </div>
                   {/* Text Para */}
 
+                  {/* Image */}
+                  <img className='max-w-[600px]' style={{ width: "100%", height: "100%" }} src="../../public/img/sectEasy/image_1.svg" alt="img" />
+                  {/* Image */}
                 </div>
 
               </div>
